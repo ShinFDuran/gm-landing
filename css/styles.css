@@ -2110,3 +2110,28 @@ portofolio-button {
 
 .love {
   color: #d9534f; }
+
+.index-header {
+  padding-top: 40px; }
+
+.advertise-description.first-no, .advertise-description.second-no, .advertise-description.third-no {
+  position: relative;
+  display: inline;
+  z-index: 1; }
+  .advertise-description.first-no:before, .advertise-description.second-no:before, .advertise-description.third-no:before {
+    position: absolute;
+    top: -35px;
+    left: -41px;
+    color: #edf1f4 !important;
+    z-index: -1;
+    font-size: 2.2em !important;
+    font-family: "Open Sans", sans-serif; }
+
+.advertise-description.first-no:before {
+  content: '01'; }
+
+.advertise-description.second-no:before {
+  content: '02'; }
+
+.advertise-description.third-no:before {
+  content: '03'; }
